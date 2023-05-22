@@ -98,6 +98,7 @@ def getTree(treeList: list) -> TreeNode:
             for j in range(len(nodes)):
                 node = nodes[j]
                 if node != "null":
+                    print("")
                     print("node = " + str(node.val))
                     left = nextNodes[subNodeIdx*2] if subNodeIdx*2 < lenNextNodes else "null"
                     if left != "null":
@@ -108,6 +109,7 @@ def getTree(treeList: list) -> TreeNode:
                         node.right = right
                         print("right = " + str(node.right.val))
                     subNodeIdx += 1
+                    print("")
             print("----------")
 
         return nodeForCount[0][0]
