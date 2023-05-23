@@ -41,6 +41,8 @@
 
    每棵树有 1 到 40000 个节点。
    每个节点的键值在 [-4 * 10^4 , 4 * 10^4] 之间。
+
+   https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/
 '''
 
 # Definition for a binary tree node.
